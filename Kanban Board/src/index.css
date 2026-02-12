@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.column {
+  background: white;
+  padding: 10px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.card {
+  background: #fafafa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* Priority Colors */
+.high { border: 2px solid red; }
+.medium { border: 2px solid orange; }
+.low { border: 2px solid green; }
